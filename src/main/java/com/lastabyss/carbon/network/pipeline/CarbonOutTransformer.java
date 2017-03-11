@@ -26,7 +26,8 @@ import com.lastabyss.carbon.utils.Utils;
 public class CarbonOutTransformer extends MessageToByteEncoder<ByteBuf> {
 
     private CarbonPlayerConnection connection;
-    private static int teleportId = 0;
+    @SuppressWarnings("unused")
+	private static int teleportId = 0;
     private static final Map<Integer, Integer> remapPackets = new HashMap<>();
     
     static {

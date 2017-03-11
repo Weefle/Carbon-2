@@ -324,6 +324,7 @@ public class StructureSchematic {
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private Vec3D a(Vec3D var1, class_a_in_class_agj var2, EnumRotation var3) {
 		double var4 = var1.a;
 		double var6 = var1.b;

@@ -30,7 +30,8 @@ public class WorldGenEndCityPieces {
     private static final class_asu b = new class_asu().a(true);
     private static final class_asu c = new class_asu().a(true).b(true);
     // private static final List d;
-    private static final List<Item> e = Lists.newArrayList((new Item[] { Items.DIAMOND_SWORD, Items.DIAMOND_BOOTS, Items.DIAMOND_CHESTPLATE, Items.DIAMOND_LEGGINGS, Items.DIAMOND_HELMET, Items.DIAMOND_PICKAXE, Items.DIAMOND_SHOVEL, Items.IRON_SWORD, Items.IRON_BOOTS, Items.IRON_CHESTPLATE, Items.IRON_LEGGINGS, Items.IRON_HELMET, Items.IRON_PICKAXE, Items.IRON_SHOVEL }));
+    @SuppressWarnings("unused")
+	private static final List<Item> e = Lists.newArrayList((new Item[] { Items.DIAMOND_SWORD, Items.DIAMOND_BOOTS, Items.DIAMOND_CHESTPLATE, Items.DIAMOND_LEGGINGS, Items.DIAMOND_HELMET, Items.DIAMOND_PICKAXE, Items.DIAMOND_SHOVEL, Items.IRON_SWORD, Items.IRON_BOOTS, Items.IRON_CHESTPLATE, Items.IRON_LEGGINGS, Items.IRON_HELMET, Items.IRON_PICKAXE, Items.IRON_SHOVEL }));
     private static final List<Tuple<EnumRotation, BlockPosition>> g = new ArrayList<Tuple<EnumRotation, BlockPosition>>();
     private static final List<Tuple<EnumRotation, BlockPosition>> j = new ArrayList<Tuple<EnumRotation, BlockPosition>>();
     private static final WorldGenEndCityPieces.PieceGenerator base1 = new WorldGenEndCityPieces.PieceGenerator() {
