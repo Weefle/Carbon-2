@@ -93,7 +93,7 @@ artifactory {
 
 file('libs').mkdirs()
 
-ant.get src: 'https://www.dropbox.com/s/my8i0mdzh35rmv5/spigot-1.8.8.jar?dl=1', dest: file('libs'), verbose: false, skipexisting: true
+ant.get src: 'https://www.dropbox.com/s/my8i0mdzh35rmv5/spigot.jar?dl=1', dest: file('libs'), verbose: false, skipexisting: true
 
 dependencies {
     compile files('libs/spigot.jar')
